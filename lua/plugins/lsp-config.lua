@@ -9,7 +9,7 @@ return {
         "williamboman/mason-lspconfig.nvim",
         config = function()
             require('mason-lspconfig').setup({
-                ensure_installed = { 'lua_ls', 'golangci_lint_ls', 'marksman', 'bsl_ls' },
+                ensure_installed = { 'lua_ls', 'marksman' }, -- see other on https://github.com/williamboman/mason-lspconfig.nvim?tab=readme-ov-file#available-lsp-servers
             })
         end,
     },

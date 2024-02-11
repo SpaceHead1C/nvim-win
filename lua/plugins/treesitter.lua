@@ -4,7 +4,7 @@ return {
     config = function()
         local config = require("nvim-treesitter.configs")
         config.setup({
-            ensure_installed = { "c", "go", "java", "javascript", "html", "lua", "proto", "vim", "vimdoc", "query" },
+            ensure_installed = { "html", "lua", "vim", "vimdoc" }, -- see other on https://github.com/nvim-treesitter/nvim-treesitter?tab=readme-ov-file#supported-languages
             highlight = { enable = true },
             ident = { enable = true },
         })
