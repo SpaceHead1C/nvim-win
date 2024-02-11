@@ -10,13 +10,7 @@ Install `Chocolatey` ([original instruction](https://chocolatey.org/install)). E
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 ```
 
-Add directory with apps installed via choco to your `PATH` env var. Defaul: `C:\ProgramData\chocolatey\bin`.
-
-*OPTIONAL.* Install another shell if you want to try it:
-
-```powershell
-choco install powershell-core
-```
+Ensure that directory with apps installed via choco in your `PATH` env var exists: `C:\ProgramData\chocolatey\bin`.
 
 Install `git` from [installer](https://git-scm.com/download/win) or command:
 
@@ -25,6 +19,12 @@ choco install git
 ```
 
 Get [Nerd Font](https://www.nerdfonts.com/font-downloads) for properly display glyphs. Configure your terminal to use the new font. I chose `Cascadia Mono` for [Terminal](https://www.microsoft.com/store/productId/9N0DX20HK701?ocid=pdpshare) and `Hack Nerd Font Mono` for `Windows PowerShell`.
+
+*OPTIONAL.* Install another shell if you want to try it:
+
+```powershell
+choco install powershell-core
+```
 
 Install `Neovim`. Use [instruction](https://github.com/neovim/neovim/blob/master/INSTALL.md) or command:
 
