@@ -32,7 +32,7 @@ Install `Neovim`. Use [instruction](https://github.com/neovim/neovim/blob/master
 choco install neovim --pre
 ```
 
-Install GCC ([TDM](https://jmeubank.github.io/tdm-gcc/download/), [MinGW](https://www.mingw-w64.org/), [Cygwin](https://sourceware.org/cygwin/)) or [Zig](https://ziglang.org/learn/getting-started/). This is required for some Neovim plugins.
+Install `GCC` ([TDM](https://jmeubank.github.io/tdm-gcc/download/), [MinGW](https://www.mingw-w64.org/), [Cygwin](https://sourceware.org/cygwin/)) or [Zig](https://ziglang.org/learn/getting-started/). This is required for some Neovim plugins.
 
 And install some usefull utils for Neovim plugins:
 
@@ -56,7 +56,7 @@ Clone this repo:
 git clone https://github.com/SpaceHead1C/nvim-win.git $Env:LocalAppData\nvim\
 ```
 
-Run your Neovim:
+Run your Neovim and wait until Lazy do its job:
 
 ```powershell
 nvim
