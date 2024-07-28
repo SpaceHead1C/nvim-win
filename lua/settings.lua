@@ -1,12 +1,4 @@
-local global = vim.g
-local o = vim.o
-
 vim.scriptencoding = "utf-8"
-
--- Map <leader>
-
-global.mapleader = " "
-global.maplocalleader = " "
 
 -- Editor options
 
