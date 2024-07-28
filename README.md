@@ -34,6 +34,8 @@ choco install neovim --pre
 
 Install `GCC` ([TDM](https://jmeubank.github.io/tdm-gcc/download/), [MinGW](https://www.mingw-w64.org/), [Cygwin](https://sourceware.org/cygwin/)) or [Zig](https://ziglang.org/learn/getting-started/). This is required for some Neovim plugins.
 
+Install [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm#using-a-node-version-manager-to-install-nodejs-and-npm). This is also required for some Neovim plugins.
+
 And install some usefull utils for Neovim plugins:
 
 ```powershell
@@ -73,4 +75,10 @@ Enjoy!
 - [lualine](https://github.com/nvim-lualine/lualine.nvim)
 - [mason](https://github.com/williamboman/mason.nvim)
 - [mason-lspconfig](https://github.com/williamboman/mason-lspconfig.nvim)
-- [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)
+- [lspconfig](https://github.com/neovim/nvim-lspconfig)
+- [alpha](https://github.com/goolord/alpha-nvim)
+- [web-devicons](https://github.com/nvim-tree/nvim-web-devicons)
+- [cmp](https://github.com/hrsh7th/nvim-cmp)
+- [LuaSnip](https://github.com/L3MON4D3/LuaSnip)
+- [cmp-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp)
+- [dap](https://github.com/mfussenegger/nvim-dap)
