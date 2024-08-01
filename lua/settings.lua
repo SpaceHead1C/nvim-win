@@ -1,3 +1,5 @@
+local o = vim.o
+
 vim.scriptencoding = "utf-8"
 
 -- Editor options
