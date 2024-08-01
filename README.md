@@ -1,6 +1,10 @@
 # My Neovim configs for Windows
 
-Inspired by [Neovim for Newbs](https://www.youtube.com/playlist?list=PLsz00TDipIffreIaUNk64KxTIkQaGguqn) course, [How to install and set up Neovim on Windows](https://blog.nikfp.com/how-to-install-and-set-up-neovim-on-windows) blog post and [How to Set up Neovim for Windows and Linux with Lua and Packer](https://dev.to/slydragonn/how-to-set-up-neovim-for-windows-and-linux-with-lua-and-packer-2391) blog post.
+Inspired by:
+- [Neovim for Newbs](https://www.youtube.com/playlist?list=PLsz00TDipIffreIaUNk64KxTIkQaGguqn) course;
+- [Setup Neovim in 2024: The Ultimate Guide](https://www.youtube.com/watch?v=6pAG3BHurdM) video guide and [post](https://www.josean.com/posts/how-to-setup-neovim-2024);
+- [How to install and set up Neovim on Windows](https://blog.nikfp.com/how-to-install-and-set-up-neovim-on-windows) blog post;
+- [How to Set up Neovim for Windows and Linux with Lua and Packer](https://dev.to/slydragonn/how-to-set-up-neovim-for-windows-and-linux-with-lua-and-packer-2391) blog post.
 
 ## Prepare your Windows
 
@@ -42,6 +46,8 @@ And install some usefull utils for Neovim plugins:
 choco install fd
 
 choco install ripgrep
+
+choco install lazygit
 ```
 
 Create directory:
@@ -82,3 +88,12 @@ Enjoy!
 - [LuaSnip](https://github.com/L3MON4D3/LuaSnip)
 - [cmp-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp)
 - [dap](https://github.com/mfussenegger/nvim-dap)
+- [which-key](https://github.com/folke/which-key.nvim)
+- [auto-session](https://github.com/rmagatti/auto-session)
+- [autopairs](https://github.com/windwp/nvim-autopairs)
+- [todo-comments](https://github.com/folke/todo-comments.nvim)
+- [trouble](https://github.com/folke/trouble.nvim)
+- [surround](https://github.com/kylechui/nvim-surround)
+- [maximizer](https://github.com/szw/vim-maximizer)
+- [lazygit](https://github.com/kdheepak/lazygit.nvim)
+- [gitsigns](https://github.com/lewis6991/gitsigns.nvim)
